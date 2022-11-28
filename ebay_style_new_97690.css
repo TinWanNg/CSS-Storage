@@ -1,0 +1,285 @@
+.wrapper{
+    max-width:1300px;
+    margin:0 auto
+}
+.wrapper img{
+    width:100%;
+    height:auto
+}
+.wrapper a,.wrapper a:visited{
+    text-decoration:none
+}
+.wrapper .container{
+    width:80%;
+    max-width:80%;
+    margin:0 auto
+}
+.wrapper .container .section-one>p{
+    line-height:1.8
+}
+.wrapper .container .section-one h3{
+    text-align:center;
+    font-size:1.4rem
+}
+.wrapper .container *,.wrapper .container .row ul{
+    font-family:Montserrat,sans-serif;
+    font-size:1rem;
+    color:#1b1464;
+    line-height:2
+}
+.wrapper .container .row img{
+    width:45%;
+    height:auto
+}
+.wrapper .container .row>div{
+    width:45%
+}
+.wrapper .container h3{
+    margin-top:.5rem;
+    font-size:1.1rem
+}
+.wrapper .container h4{
+    margin-top:0;
+    font-weight:600;
+    min-width:max-content
+}
+.wrapper .container hr{
+    margin-bottom:2rem;
+    margin-top:2rem;
+    color:#1b1464;
+    background-color:#1b1464a9
+}
+.wrapper .container .row ul{
+    padding-inline-start:15px;
+    list-style:none;
+    line-height:1.5rem;
+    margin:0;
+    padding-left:0;
+    margin-left:1rem
+}
+.wrapper .container .sixty ul>li{
+    padding-left:0
+}
+.wrapper .container .sixty p{
+    line-height:1.8;
+    color:#1b1464
+}
+.wrapper .container ul li:before{
+    content:"\2022";
+    color:#1b1464;
+    font-weight:700;
+    display:inline-block;
+    width:1em;
+    margin-left:-1em
+}
+.wrapper .section-one{
+    width:95%;
+    margin-top:2rem
+}
+.wrapper .kaushan{
+    font-family:Kaushan Script,cursive;
+    font-size:110%;
+    margin-right:.3rem
+}
+.wrapper .orange{
+    color:#ff3823
+}
+.wrapper .head{
+    max-width:60%;
+    margin:2rem auto
+}
+.wrapper .head h2{
+    font-size:2.8rem;
+    margin-bottom:.5rem;
+    font-weight:600
+}
+.wrapper .head img{
+    width:100%;
+    height:auto
+}
+.wrapper .row{
+    width:95%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+.wrapper .row.four-items{
+    margin-bottom:2rem
+}
+.wrapper .row.four-items>*{
+    max-width:20%;
+    display:flex;
+    flex-direction:column;
+    text-align:center
+}
+.wrapper .row.four-items div div>img{
+    width:75%;
+    max-width:75%
+}
+.wrapper .row.four-items div>p{
+    font-size:.9rem;
+    line-height:1.2;
+    color:#1b1464
+}
+.wrapper .full-width{
+    width:100%
+}
+.wrapper .half{
+    width:50%
+}
+.wrapper .margin-top-5{
+    margin-top:5rem
+}
+div.container>div.row.four-items>div:nth-child(3)>div{
+    margin:3rem 0
+}
+.wrapper .container .ms-container .other-item .ms-button{
+    font-size:.8rem
+}
+.wrapper .container .h3-other{
+    font-size:1.4rem
+}
+.ms-container .ms-other{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+.ms-container .other-item{
+    display:flex;
+    flex-direction:column;
+    width:20%;
+    min-width:20%
+}
+.ms-container .other-item img{
+    width:100%;
+    height:auto
+}
+.ms-container .other-item p{
+    text-align:center;
+    margin-left:-3rem;
+    min-height:2rem;
+    color:#1b1464;
+    font-weight:600
+}
+.ms-container .other-item .price{
+    height:1rem;
+    min-height:1rem;
+    margin-top:-.5rem;
+    margin-bottom:2rem
+}
+.ms-container .other-item .ms-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:90%;
+    font-size:.8rem;
+    border-radius:0;
+    height:2rem;
+    font-weight:700;
+    background-color:#ff6a5a;
+    text-decoration:none;
+    color:#fff;
+    margin:0 auto;
+    margin-left:0rem;
+    margin-bottom:2rem
+}
+@media only screen and (max-width: 550px){
+    .ms-container .ms-other{
+        flex-direction:column
+    }
+    .ms-container .other-item{
+        width:60%;
+        margin:0 auto;
+        margin-bottom:3rem
+    }
+    .ms-container .other-item .ms-button{
+        margin:0 auto
+    }
+    .ms-container .other-item a{
+        text-align:center
+    }
+    .ms-container .other-item a>img{
+        width:100%;
+        margin:0 auto
+    }
+    .ms-container .image{
+        text-align:center
+    }
+    .ms-container .image img{
+        width:70%
+    }
+    .ms-container .other-item a>p{
+        margin-left:0rem;
+        margin-top:-1rem
+    }
+}
+@media (max-width: 500px){
+    .wrapper .container .section-one h3{
+        font-size:1.2rem
+    }
+    .wrapper .container .row>img{
+        width:75%
+    }
+    .wrapper .container .row.four-items img{
+        width:60%
+    }
+    .wrapper .container .h3-other{
+        font-size:1.2rem
+    }
+    .wrapper .container .ms-container .other-item .ms-button{
+        height:2.5rem
+    }
+}
+@media (max-width:804px){
+    .wrapper .container{
+        max-width:100%;
+        width:95%
+    }
+    .wrapper .container .row,.container .row.four-items{
+        flex-direction:column;
+        margin:0 auto;
+        margin-bottom:2rem
+    }
+    .wrapper .container .row>*{
+        margin:0 auto
+    }
+    .wrapper .container .row>div,.wrapper .container .row.four-items>*{
+        width:95%;
+        max-width:95%
+    }
+    .wrapper .container .row>img{
+        width:100%
+    }
+    .wrapper .container .row.four-items img{
+        width:40%
+    }
+    .wrapper .container .row>div{
+        order:1;
+        margin-top:2rem
+    }
+    .row.four-items div>p{
+        font-size:.9rem;
+        width:75%;
+        margin:0 auto
+    }
+    .wrapper .container .h3-other{
+        margin-top:2rem;
+        text-align:center;
+        margin:0 auto
+    }
+}
+@media (max-width:1000px){
+    div.container>div.row.four-items>div:nth-child(3)>div{
+        margin:1.2rem 0 1rem
+    }
+    .wrapper .container h4{
+        min-width:0rem
+    }
+}
+@media (min-width:1001px){
+    div.container>div.row.four-items>div:nth-child(3)>div{
+        margin:1.55rem 0
+    }
+}
+/*# sourceMappingURL=/s/files/1/1563/5705/files/ebay_style_new.css.map?97690= */
